@@ -84,6 +84,10 @@ Uint32 amask = 0xff000000;
 
 int main(int argc, char *argv[])
 {
+
+    argc = argc;
+    argv = argv; // avoid compiler complain
+
     /* set up 4 images used in this program,
      * TCBG stands for True Color BackGround */
     extern const TrueColorImage TCBGImage;
